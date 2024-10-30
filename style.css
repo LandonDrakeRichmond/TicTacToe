@@ -1,0 +1,97 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    background-color: lightgrey;
+    margin: 0px;
+    padding: 20px;
+}
+
+#gameBoard{
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#group1{
+    display: flex;
+    justify-content: center;;
+}
+#group2{
+    display: flex;
+    justify-content: center;
+}
+#group3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.cell{
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.cell:hover{
+    background-color: darkgrey;
+}
+#playerMessage{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#resetButton{
+    padding: 20px 50px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #2980B9;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+#resetButton:hover{
+    background-color: #1A5276;
+}
+
+
+
+
+#cell-0{
+    border-right: 2px solid red;
+    border-bottom: 2px solid red;
+}
+#cell-1{
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+    border-bottom: 2px solid red;
+}
+#cell-2{
+    border-left: 2px solid red;
+    border-bottom: 2px solid red;
+}
+#cell-3{
+    border-top: 2px solid red;
+    border-right: 2px solid red;
+    border-bottom: 2px solid red;
+}
+#cell-4{
+    border: 2px solid red;
+}
+#cell-5{
+    border: 2px solid red;
+    border-right: none;
+}
+#cell-6{
+    border-right: 2px solid red;
+    border-top: 2px solid red;
+}
+#cell-7{
+    border: 2px solid red;
+    border-bottom: none;
+}
+#cell-8{
+    border-top: 2px solid red;
+    border-left: 2px solid red;
+}
